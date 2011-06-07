@@ -1,0 +1,8 @@
+#!/bin/sh
+#
+# Hello world script
+#
+exec scala "$0" "$@"
+!#
+
+println("Hello " + args(0) + "!")
